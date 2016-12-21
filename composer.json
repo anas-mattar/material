@@ -1,0 +1,30 @@
+{
+  "name": "material/bootstrap-material",
+  "description": "Composer package for implementing FezVrasta's bootstrap material design in Yii2.",
+  "keywords": [
+    "yii", "yii2", "bootstrap", "material"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/anas-mattar/material/issues",
+    "source": "https://github.com/anas-mattar/material"
+  },
+  "authors": [
+    {
+      "name": "Romanos Tsouroplis",
+      "email": "rom-dim@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-bootstrap": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "material": "src/"
+    }
+  }
+}
